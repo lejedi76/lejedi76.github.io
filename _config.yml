@@ -51,7 +51,8 @@ social:
   #forumbee:
   #tripadvisor:
   #amazon:
-
+collections:
+  - team
 # Build settings
 markdown: kramdown
 #sass:
