@@ -17,7 +17,7 @@ collections:
       - {label: "Categorie", name: "category", widget: "hidden", default: "blog"}
       - {label: "Nom", name: "name", widget: "string"}
       - {label: "Prénom", name: "firstname", widget: "string"}
-      - {label: "Age", name: "age", widget: "name", min:18, max:130}
+      - {label: "Age", name: "age", widget: "number", min:18, max:130}
       - {label: "Image", name: "pic", widget: "image"}
       - {label: "Emploi", name: "position", widget: "string"}
       - {label: "Lieu-dit", name: "lieu-dit", widget: "select", options: ["Montaure", "Ecrosville", "Tostes", "Les Fosses"]}
