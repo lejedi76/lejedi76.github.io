@@ -7,14 +7,14 @@ backend:
 media_folder: "images" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "team" # Used in routes, e.g., /admin/collections/blog
+  - name: "membre" # Used in routes, e.g., /admin/collections/blog
     label: "Membre de l'équipe" # Used in the UI
+    description: "Ajouter un membre à l'équipe"
+    identifier_field: name
     folder: "_team" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Categorie", name: "category", widget: "hidden", default: "blog"}
       - {label: "Nom", name: "name", widget: "string"}
       - {label: "Prénom", name: "firstname", widget: "string"}
       - {label: "Age", name: "age", widget: "number", min:18, max:130}
