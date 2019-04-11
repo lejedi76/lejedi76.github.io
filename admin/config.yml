@@ -16,10 +16,10 @@ collections:
   - name: "membre" # Used in routes, e.g., /admin/collections/blog
     label: "Membre de l'équipe" # Used in the UI
     description: "Ajouter un membre à l'équipe"
-    identifier_field: name
+    identifier_field: nom
     folder: "_team" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{nom}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Nom", name: "nom", widget: "string"}
       - {label: "Prénom", name: "prenom", widget: "string"}
