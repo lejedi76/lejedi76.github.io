@@ -2,7 +2,7 @@
   <section id="services">
   <!-- Page Content -->
 
-  {% for post in site.posts reversed %}
+  {% for post in site.posts %}
     {% if post.category contains 'programme-theme' %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
