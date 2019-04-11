@@ -1,0 +1,18 @@
+/*!
+ * Start Bootstrap - Agnecy Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+$(function() {  
+//modal
+$('div.modal').on('show.bs.modal', function() {
+	var modal = this;
+	var hash = modal.id;
+	window.location.hash = hash;
+	window.onhashchange = function() {
+		if (!location.hash){
+			$(modal).modal('hide');
+		}
+	}
+});
