@@ -1,6 +1,12 @@
 backend:
   name : github
   repo : lejedi76/lejedi76.github.io
+  commit_messages:
+    create: Ajout {{collection}} “{{slug}}”
+    update: Mise à jour {{collection}} “{{slug}}”
+    delete: Suppression {{collection}} “{{slug}}”
+    uploadMedia: Téléversement “{{path}}”
+    deleteMedia: Suppression “{{path}}”
   # name: git-gateway
   # branch: master # Branch to update (optional; defaults to master)
 
@@ -15,10 +21,10 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Nom", name: "name", widget: "string"}
-      - {label: "Prénom", name: "firstname", widget: "string"}
+      - {label: "Nom", name: "nom", widget: "string"}
+      - {label: "Prénom", name: "prenom", widget: "string"}
       - {label: "Age", name: "age", widget: "number", min:18, max:130}
-      - {label: "Image", name: "pic", widget: "image"}
-      - {label: "Emploi", name: "position", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Métier", name: "metier", widget: "string"}
       - {label: "Lieu-dit", name: "lieu-dit", widget: "select", options: ["Montaure", "Ecrosville", "Tostes", "Les Fosses"]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Motivation", name: "motivation", widget: "markdown"}
