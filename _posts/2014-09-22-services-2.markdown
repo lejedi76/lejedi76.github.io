@@ -1,9 +1,8 @@
 ---
 layout: default
 img: dog.png
-category: programme-theme
+category: truc
 title: 3D Device Mockups<br>by PSDCovers
-modal-id: 1
 description: |
 ---
   Turn your 2D designs into high quality, 3D

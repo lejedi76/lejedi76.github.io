@@ -1,60 +1,25 @@
-<section id="five" class="wrapper style3 special">
-  <section id="services">
-  <!-- Page Content -->
-
-  {% for post in site.posts %}
-    {% if post.category contains 'programme-theme' %}
-      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        {% if thecycle == 'odd' %}
-        <div class="content-section-a">
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                        <div><a href="#portfolioModal{{ forloop.index }}" class="button fit" data-toggle="modal" data-target="#portfolioModal{{ forloop.index }}">Nos propositions</a></div>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive img-rounded" src="images/programme-theme/{{ post.img }}" alt="">
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- /.container -->
-
+<!-- Two -->
+  <section id="reallytwo" class="wrapper alt style2">
+    {% for post in site.posts %}
+      {% if post.category contains 'programme-theme' %}
+      <section class="spotlight">
+        <div class="image"><img src="images/Pictures/{{ post.img }}" alt="" /></div><div class="content">
+          <h2>{{ post.title }}</h2>
+          {% if post.citation %}
+          <blockquote class="blockquote">
+           <p class="mb-0"> {{ post.citation }} </p>
+           <footer class="blockquote-footer"><span style="color:white;"> {{ post.auteur }}</span></footer>
+          </blockquote>
+          {% endif %}
+          {% if post.proposition %}
+          {% assign proposition = site.propositions | where:"prop",post.proposition %}
+            <ul class="actions vertical" style="width:50%">
+              <li><a href="{{ proposition[0].url }}" class="button fit">Nos propositions</a></
+              </li>
+            </ul>
+          {% endif %}
         </div>
-        <!-- /.content-section-a -->
-        {% else %}
-
-        <div class="content-section-b">
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h4 class="section-heading">{{ post.title }}</h2>
-                        <div class="lead">{{ post.content }}</div>
-                        <div><a href="#portfolioModal{{ forloop.index }}" class="button fit" data-toggle="modal" data-target="#portfolioModal{{ forloop.index }}">Nos propositions</a></div>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                      <img class="img-responsive img-rounded" src="images/programme-theme/{{ post.img }}" alt="">
-                    </div>
-                </div>
-
-            </div>
-            <!-- /.container -->
-
-        </div>
-        <!-- /.content-section-b -->
-        {% endif %}
+      </section>
       {% endif %}
-    {% endfor %}
+  {% endfor %}
   </section>
-</section>

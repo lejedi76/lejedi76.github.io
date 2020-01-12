@@ -1,7 +1,7 @@
 ---
 layout: default
 img: solidarite.png
-category: programme-theme
+category: truc
 title: Ecole - Lien social - Solidarité
 description: |
 ---

@@ -106,3 +106,32 @@
 textarea.form-control {
     height: 236px;
 }
+
+.gr {
+  font-size: 115%;
+}
+.vertc {
+  color: #39cc65;
+}
+
+.vert {
+  color: #2B9C4D;
+}
+.bleu {
+  color: #2e57b8;
+}
+
+.bleuc {
+  color: #3d73f2;
+}
+.rougec {
+  color: #F51911;
+}
+
+.rouge {
+  color: #B8130D;
+}
+
+.violet {
+  color: #941F94;
+}

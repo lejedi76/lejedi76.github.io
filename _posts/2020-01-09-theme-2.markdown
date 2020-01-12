@@ -1,0 +1,9 @@
+---
+layout: default
+img: service_ecoute_jeunesse_senior.jpg
+category: programme-theme
+title:  A l’écoute et au service de ses habitants du plus jeune au plus âgé
+citation: La jeunesse est le temps d’étudier la sagesse, <br>La vieillesse est le temps de la pratiquer.
+auteur : Jean-Jacques Rousseau
+proposition: '1'
+---

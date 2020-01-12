@@ -1,0 +1,9 @@
+---
+layout: default
+img: bonne_gestion.jpg
+category: programme-theme
+title:  un village bien géré
+citation: La gestion de l’économie n’est ni de gauche, ni de droite. Elles est bonne ou mauvaise…<br> Ce qui compte c’est que ça marche.
+auteur : Tony Blair
+proposition: 4
+---
