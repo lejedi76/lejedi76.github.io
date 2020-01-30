@@ -28,10 +28,13 @@
         <section class="wrapper style5">
           <div class="inner">
             {{ content }}
+            {% include previous_next.html %}
           </div>
-        </section>
 
+        </section>
       </article>
+
+
       {% include footer.html %}
       {% include scripts.html %}
 

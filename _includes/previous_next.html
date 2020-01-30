@@ -1,0 +1,8 @@
+
+  <!-- <div class="6u 12u$(medium)"> -->
+    <ul class="actions fit small vertical">
+      <li><a href="/index.html" class="button special fit small">Retour à l'accueil</a></li>
+      {% if page.previous %}<li><a href="{{page.previous.url}}" class="button fit small"> {{page.previous.title}} </a></li> {% endif %}
+      {% if page.next %}<li><a href="{{page.next.url}}" class="button fit small"> {{page.next.title}}</a></li> {% endif %}
+    </ul>
+  <!-- </div> -->
