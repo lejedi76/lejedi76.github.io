@@ -1,5 +1,5 @@
 ---
-nom: fabre
+nom: lacaille
 prenom: Gipsy
 age: 38
 image: /images/equipe/06.jpg

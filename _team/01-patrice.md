@@ -2,7 +2,7 @@
 nom: PHILIPPE
 prenom: Patrice
 age: 59
-image: /images/Pictures/01.jpg
+image: /images/equipe/01.jpg
 metier: >
   Retraité de l'éducation nationale (directeur d'école et référent numérique)<br>
   Adjoint au maire de Caudebec les Elbeuf (2001-2014)<br>
