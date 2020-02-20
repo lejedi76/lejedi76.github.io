@@ -1,5 +1,5 @@
 ---
-nom: guegnier
+nom: guenier
 prenom: Florent
 age: 38
 image: /images/equipe/17.jpg
