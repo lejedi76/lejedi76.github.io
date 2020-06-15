@@ -1,9 +1,9 @@
 ---
 layout: default
-img: espace_maitrise.jpg
+img: amenagement_maitrise.jpg
 category: programme-theme
-title:  dans un espace maîtrisé et partagé
-citation: Nous n’avons pas hérité la terre de nos ancêtres mais l’empruntons à nos enfants.
-auteur : Antoine de Saint Exupéry
+title:  un aménagement du territoire maîtrisé et partagé
+citation:
+auteur :
 proposition: 3
 ---

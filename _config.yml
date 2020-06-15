@@ -2,12 +2,12 @@
 #
 
 # Site settings
-title: Terres de Bord - Un autre regard !
+title: Terres de Bord Ensemble
 description: |
-  C'est vous, c'est nous, agissons ensemble !
-owner: Terres de Bord un autre regard # or company name
+  Une équipe compétente pour notre commune, ensemble
+owner: Terre de Bord Ensemble # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
-email: tdb1autreregard@free.fr
+email: tdb.ensemble@free.fr
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
@@ -16,7 +16,7 @@ social:
   # linkedin-square: https://linkedin.com/in/<username>
   # facebook-official: https://facebook.com/<username>
   # google-plus-square: https://plus.google.com/u/0/+<username>
-  email: tdb1autreregard@free.fr
+  email: tdb.ensemble@free.fr
 
   #flickr:
   #instagram:

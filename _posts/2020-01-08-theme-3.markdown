@@ -1,9 +1,9 @@
 ---
 layout: default
-img: village_solidaire_petit.jpg
+img: village_solidaire.jpg
 category: programme-theme
-title:  Un village plus solidaire
-citation: 'Tout groupe humain prend sa richesse dans la communication <br> l’entraide et la solidarité visant à un but commun : l’épanouissement de chacun dans le respect des différences'
-auteur : Françoise Dolto
+title:  Un village solidaire
+citation:
+auteur :
 proposition: 2
 ---

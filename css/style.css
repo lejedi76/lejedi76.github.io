@@ -107,8 +107,10 @@ textarea.form-control {
     height: 236px;
 }
 
+
 .gr {
-  font-size: 115%;
+  /* font-size: 115%; */
+  font-weight: bold;
 }
 .vertc {
   color: #39cc65;

@@ -1,9 +1,9 @@
 ---
-nom: leteissier
-prenom: Nolwenn
-age: 35
+nom: wezel
+prenom: Noémie
+age: 32
 image: /images/equipe/12.jpg
 metier: Professeur des écoles
-lieu-dit: Ecrosville
+lieu-dit: La Vallée Montaure
 motivation: ''
 ---

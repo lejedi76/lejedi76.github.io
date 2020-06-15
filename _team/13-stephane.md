@@ -1,9 +1,9 @@
 ---
-nom: ndabashinze
-prenom: Elie
-age: 46
+nom: rouse
+prenom: Stéphane
+age: 45
 image: /images/equipe/13.jpg
-metier: Artisan - Commerçant
+metier: Infirmier DE
 lieu-dit: Ecrosville
 motivation: ''
 ---

@@ -8,7 +8,7 @@
         <div id="menu">
           <ul>
             <li><a href="{{ site.baseurl }}/index.html">Accueil</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#edito">édito</a></li>
+            <li><a href="{{ site.baseurl }}/index.html#edito">Une liste pour l'avenir</a></li>
             {% for proposition in site.propositions %}
             <li><a href="{{ proposition.url | prepend: site.baseurl }}">{{ proposition.title }}</a></li>
             {% endfor %}

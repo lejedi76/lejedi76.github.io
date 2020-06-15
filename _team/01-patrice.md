@@ -9,7 +9,7 @@ metier: >
   Conseiller communautaire à l'agglo d'Elbeuf puis à la CREA<br>
   Dirigeant de club et trésorier de la ligue de Normandie de handball pendant
   12 ans<br>
-  Médaillé jeunesse et sport<br>
+  Médaillé jeunesse et sports<br>
 lieu-dit: Montaure
 motivation: ''
 ---
