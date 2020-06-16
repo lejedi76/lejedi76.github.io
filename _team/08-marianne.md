@@ -4,6 +4,6 @@ prenom: Marianne
 age: 43
 image: /images/equipe/08.jpg
 metier: Technicienne de laboratoire
-lieu-dit: Montaure
+lieu-dit: Ecrosville
 motivation: ''
 ---
