@@ -1,5 +1,5 @@
 ---
-nom: billoé
+nom: biloé
 prenom: Christophe
 age: 40
 image: /images/equipe/15.jpg
